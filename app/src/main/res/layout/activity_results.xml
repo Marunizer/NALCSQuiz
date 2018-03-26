@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lcs"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/doneText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:layout_centerVertical="true"
+        android:textStyle="bold"
+        android:background="#c7179898"
+        android:gravity="center"
+        android:text="Congratulations on completing the quiz! Score:"/>
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/doneText"
+        android:textColor="@android:color/white"
+        android:background="#c7179898"
+        android:textSize="48sp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/score"
+        android:textColor="@android:color/white"
+        android:background="#c7179898"
+        android:textSize="42sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Thanks for playing!"/>
+
+
+</RelativeLayout>
